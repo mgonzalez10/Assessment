@@ -66,9 +66,9 @@ namespace Question2.Implementations
         }
 
         /// <summary>
-        /// <see cref="IDeck.Suffle"/>
+        /// <see cref="IDeck.Shuffle"/>
         /// </summary>
-        public void Suffle()
+        public void Shuffle()
         {
             if (!Cards.Any())
                 return;

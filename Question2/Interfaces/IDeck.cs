@@ -6,7 +6,7 @@ namespace Question2.Interfaces
     {
         List<ICard> GetCardDeck();
 
-        void Suffle();
+        void Shuffle();
 
         ICard DealOneCard();
     }

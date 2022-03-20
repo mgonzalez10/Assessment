@@ -45,14 +45,14 @@ namespace Question2.Test
         }
 
         [TestMethod]
-        public void Suffle_Success()
+        public void Shuffle_Success()
         {
             // arrange
             var deckSut = this.CreateSut();
             var firstCard = deckSut.GetCardDeck()[0];
 
             // act
-            deckSut.Suffle();
+            deckSut.Shuffle();
             var deck = deckSut.GetCardDeck();
 
             // assert

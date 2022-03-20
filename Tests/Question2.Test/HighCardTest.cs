@@ -15,7 +15,7 @@ namespace Question2.Test
         {
             // Arrange
             var deck = this.CreateSut();
-            deck.Suffle();
+            deck.Shuffle();
 
             // Act
             var result = HighCard.Play(deck);
